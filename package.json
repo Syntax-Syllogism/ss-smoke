@@ -1,0 +1,25 @@
+{
+  "name": "@syntax-syllogism/ss-smoke",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Toolchain smoke-test fixture for the Syntax & Syllogism release pipeline.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "ss-smoke": "src/cli.mjs"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build": "node src/build.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syntax-Syllogism/ss-smoke.git"
+  }
+}

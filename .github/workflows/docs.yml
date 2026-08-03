@@ -8,7 +8,7 @@ on:
 
 jobs:
   docs:
-    uses: Syntax-Syllogism/tooling/.github/workflows/docs-publish.yml@workflows/v1
+    uses: Syntax-Syllogism/workflows/.github/workflows/docs-publish.yml@workflows/v1
     with:
       tool_slug: 'ss-smoke'
       public_repo: 'Syntax-Syllogism/ss-smoke'

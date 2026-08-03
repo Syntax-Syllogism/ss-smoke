@@ -43,5 +43,5 @@ See [getting started](getting-started.md) for the default bucket table.
 ## Source
 
 The threshold defaults are defined in
-[`src/index.mjs`](https://github.com/Syntax-Syllogism/ss-smoke/blob/v0.2.0/src/index.mjs),
+[`src/index.mjs`](https://github.com/Syntax-Syllogism/ss-smoke/blob/v0.2.1/src/index.mjs),
 pinned to the released tag so the link keeps working as the code changes.

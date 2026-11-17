@@ -8,6 +8,10 @@ on:
 
 jobs:
   docs:
+    # The release branch is pushed to both the private origin and the public
+    # mirror, and this workflow also fires on master. Only the mirror's release
+    # branch may publish the docs site.
+    if: github.repository == 'Syntax-Syllogism/ss-smoke' && github.ref == 'refs/heads/release'
     uses: Syntax-Syllogism/workflows/.github/workflows/docs-publish.yml@workflows/v1
     with:
       tool_slug: 'ss-smoke'
